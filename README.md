@@ -22,4 +22,4 @@ export VAULT_ADDR='http://127.0.0.1:8200'
 ```
 vault kv put secret/firs_secret password=admin123
 ```
-* note: by default we're only have the permission to write secret inside **secret/** path / folder, if you want to use another directory, we would cover later on chapter Vault Policy
+* note: by default we're only have the permission to write secret inside **secret/** folder, if you want to use another directory, we would cover later on chapter Vault Policy
